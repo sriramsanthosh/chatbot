@@ -1,0 +1,28 @@
+.msg-box{
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: auto;
+  border: 2px solid lightgrey;
+  width: fit-content;
+  margin-top: 0;
+}
+
+.option-box{
+  border-radius: 6px;
+  border: 1px solid whitesmoke;
+  font-weight: 450;
+}
+
+.option-box:hover{
+  cursor: pointer;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.listing{
+  list-style-type: circle;
+}
