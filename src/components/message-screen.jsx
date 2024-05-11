@@ -115,7 +115,7 @@ const MSGScreen = () => {
       await messages.push({
         label: true,
         msg: "Jatavath Pavan",
-        options: ["9346158861", "https://"],
+        options: ["9346158861", "https://medical-advisor-chatbot.vercel.app/"],
         id: 0
       });
     }
@@ -172,6 +172,7 @@ const MSGScreen = () => {
       })
       }
     </div>
+    <div className='text-center ubuntu-regular' style={{padding:"20px 0"}}>&copy;2024 Medical Advisor. All Rights Reserved.</div>
     </div>
   )
 }
