@@ -1,17 +1,31 @@
+.home-container{
+  background-color: #4A8A89;
+  min-height: 100vh;
+}
+
+
 .msg-box{
   padding: 10px;
   font-size: 18px;
-  border-radius: 20px;
+  border-radius: 30px;
   font-weight: bold;
   margin: auto;
   border: 2px solid lightgrey;
   width: fit-content;
   margin-top: 0;
+  white-space: pre-line; 
 }
 
+.chatbot-container{
+  background: url("./images/back2Medical.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height:100vh;
+}
 .option-box{
-  border-radius: 6px;
-  border: 1px solid whitesmoke;
+  /* border-radius: 6px;
+  border: 1px solid whitesmoke; */
   font-weight: 450;
 }
 
@@ -25,4 +39,66 @@
 
 .listing{
   list-style-type: circle;
+}
+
+.banner-img{
+  background: url("./images/banner.png");
+  max-width: 1024px;
+  height: 750px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid whitesmoke;
+  border-radius: 50px;
+  transition: ease-in-out 0.1s;
+}
+
+.banner-img:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:1024px){
+  .banner-img{
+    width: 370px;
+    height: 700px;
+    max-width: 95%;
+    padding: 0;
+    background: url("./images/banner2.png");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+}
+@media screen and (max-width:750px){
+  .banner-img{
+    width: 370px;
+    height: 700px;
+    max-width: 95%;
+    padding: 0;
+    background: url("./images/banner2.png");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+}
+@media screen and (max-width:397px){
+  .banner-img{
+    width: 300px;
+    height: 550px;
+    max-width: 95%;
+    padding: 0;
+    background: url("./images/banner2.png");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
 }
